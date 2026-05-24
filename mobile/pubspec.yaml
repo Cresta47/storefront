@@ -1,0 +1,44 @@
+name: storeflow_mobile
+description: "Companion mobile application for StoreFlow SaaS built in Flutter."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation & Icons
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.6.0
+
+  # State Management & Store
+  provider: ^6.1.1
+
+  # Network & REST APIs
+  http: ^1.2.0
+
+  # Local DB & Caching
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Native camera Vision barcode scanning
+  mobile_scanner: ^3.5.6
+
+  # Native BLE pocket printer
+  blue_thermal_printer: ^1.2.3
+  esc_pos_utils_plus: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/
