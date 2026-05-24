@@ -1,0 +1,10 @@
+# Root gitignore
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+.gemini/
+.antigravity/
+.antigravityignore
